@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "566464682351",
+    "firebase_url": "https://anket-67f5f.firebaseio.com",
+    "project_id": "anket-67f5f",
+    "storage_bucket": "anket-67f5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566464682351:android:0945951059010135a0709a",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566464682351-8doink1di4od26d951q1el50gsrrvk4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.starter",
+            "certificate_hash": "3ec63613baf6a07421f2bb8c045bf5c5d1b768a3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg7Bu0VewnL4GJ-Tl8KFsCXj8URvbaLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566464682351-jfs90bd8r128snjub6gmrov32n3uveal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

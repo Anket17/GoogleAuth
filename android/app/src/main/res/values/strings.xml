@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GoogleAuth</string>
+    <string name="title_activity_main">GoogleAuth</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+     <string name="server_client_id">566464682351-e89ean6cb8nfbk6pf3r7ep78qpkf0jo9.apps.googleusercontent.com</string>
+</resources>

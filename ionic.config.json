@@ -1,0 +1,7 @@
+{
+  "name": "GoogleAuth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

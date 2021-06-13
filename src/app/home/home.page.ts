@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import {GoogleAuth} from '@codetrix-studio/capacitor-google-auth';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+// import {GoogleAuth} from '@codetrix-studio/capacitor-google-auth';
+//import { url } from 'inspector';
 //import { TwitterConnect } from '@ionic-native/twitter-connect/ngx';
 
 @Component({
@@ -7,20 +9,21 @@ import {GoogleAuth} from '@codetrix-studio/capacitor-google-auth';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
   userInfo : any;
+ public userDetails:any;
+  constructor(private router: Router) { }
  
-  constructor() { }
+  ngOnInit(): void {
  
-  googleSignup() {
-    GoogleAuth.init()
-    const googleUser =  GoogleAuth.signIn() as any;
-    console.log('my user: ', googleUser);
-    this.userInfo = googleUser;
   }
 
-  twitterSignup(){
 
-  }
+ 
+
+
+  // twitterSignup(){
+
+  // }
 
 }

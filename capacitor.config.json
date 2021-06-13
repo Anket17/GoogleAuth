@@ -5,9 +5,10 @@
   "plugins": {
     "GoogleAuth": {
       "scopes": ["profile", "email"],
-      "serverClientId": "566464682351-e89ean6cb8nfbk6pf3r7ep78qpkf0jo9.apps.googleusercontent.com",
+      "serverClientId": "566464682351-s4n5gecc96hmf28ko1551bl5mr0e1emp.apps.googleusercontent.com",
       "forceCodeForRefreshToken" : true
     }
   },
 	"bundledWebRuntime": false
+  
 }

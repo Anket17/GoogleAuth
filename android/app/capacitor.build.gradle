@@ -15,8 +15,9 @@ dependencies {
     implementation project(':capacitor-keyboard')
     implementation project(':capacitor-status-bar')
     implementation project(':codetrix-studio-capacitor-google-auth')
-
+    implementation "com.onesignal:OneSignal:3.16.0"
 }
+apply from: "../../node_modules/onesignal-cordova-plugin/build-extras-onesignal.gradle"
 apply from: "../../node_modules/twitter-connect-plugin/src/android/twitter.gradle"
 
 if (hasProperty('postBuildExtras')) {

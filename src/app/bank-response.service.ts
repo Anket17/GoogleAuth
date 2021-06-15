@@ -14,4 +14,5 @@ export class BankResponseService {
 
     return this.httpClient.get(this.bankResponseUrl,  { responseType:'text'});
    }
+   
 }

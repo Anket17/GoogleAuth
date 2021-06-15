@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import {GoogleAuth} from '@codetrix-studio/capacitor-google-auth';
 import { Browser } from '@capacitor/browser';
-
+import {BankResponseService} from '../bank-response.service'
+import { UniqueDeviceID } from '@ionic-native/unique-device-id/ngx';
 
 @Component({
   selector: 'app-dashboard',
@@ -11,7 +12,8 @@ import { Browser } from '@capacitor/browser';
 })
 export class DashboardComponent implements OnInit {
 public userDetails: any[];
-  constructor(private router: Router) { }
+data: any;
+  constructor(private router: Router, private bankResponseService: BankResponseService) { }
 
   ngOnInit(): void {
     const storage = localStorage.getItem('gAuth');
@@ -39,5 +41,10 @@ public userDetails: any[];
     this.router.navigateByUrl('');
     GoogleAuth.signOut();
   }
+
+// sendNotificationP(){
+//   this.bankResponseService
+// }
+
 
 }
